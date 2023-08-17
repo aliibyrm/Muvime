@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+   .kapsam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 375px;
+    width: 100%;
+    background-image: url('../img/movieActor.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .kutu {
+    width: 75%;
+    height: 64px;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: white;
+  }
+  
+  .search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: transparent;
+    flex: 1;
+  }
+  
+  
+  .form-control {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-search {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: crimson;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  width: 250px; /* İstenilen genişliği belirleyin */
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

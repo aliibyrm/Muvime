@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.footer {
+    background-color: rgba(3, 37, 65, 1);
+    color: #fff;
+    padding: 20px;
+    
+  }
+
+  .footer-item {
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  .social-icon{
+    margin-left: 24px;
+  }
+
+
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }

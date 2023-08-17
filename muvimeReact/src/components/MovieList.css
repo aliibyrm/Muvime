@@ -1,0 +1,113 @@
+.img {
+    height: 293px;
+    width: 196px;
+}
+ 
+.card-img-top-list {
+    /* height: 293px;
+    width: 196px;
+    object-fit: cover;
+    align-items: start;
+    display: flex; */
+    height: 293px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+}
+.card-content {
+
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+     height: 100%; 
+    align-self: stretch;
+}
+ .card-title{
+  align-self: stretch;
+  color: #545454;
+  /* h5/bold */
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 24px */
+} 
+.card-genre{
+  align-self: stretch;
+  color: #828282;
+font-family: 'Inter';
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+}
+.card-end{
+
+  color: #828282;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+
+.moreButton {
+  width: 69px;
+  height: 38px;
+ display: flex;
+ padding: 6px 12px;
+ align-items: flex-start;
+ gap: 10px;
+  border-radius: 3px;
+ border: 1px solid rgba(0, 0, 0, 0.40);
+ 
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5,
+              -6px -6px 12px #ffffff;
+ }
+ 
+ .moreButton::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, 	white 0%, gray 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ .moreButton:hover::before {
+  width: 9em;
+ }
+ .ratingList{
+  display: flex; /* Use flexbox to enable alignment properties */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 24px;
+  height: 16px;
+  padding: 5px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background-color: black;
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  pointer-events: none;
+display: inline-flex;
+
+ }
+
+

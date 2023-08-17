@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.series-page {
+  font-family: 'Inter', sans-serif;
+  padding-top: 64px;
+}
+
+
+
+.series-page-title {
+  color: #555;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -1.2px;
+  margin: 0;
+}
+
+.series-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.series-card {
+  width: calc(33.33% - 20px); 
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.series-card-img {
+  height: 293px;
+  width: 196px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.series-card-title {
+  color: #545454;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.series-card-genres {
+  color: #828282;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.series-card-release {
+  color: #828282;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.series-card-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 16px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: black;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+
+

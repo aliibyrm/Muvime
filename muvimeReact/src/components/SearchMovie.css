@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.img {
+    height: 293px;
+    width: 196px;
+}
+ 
+.card-img-top {
+    /* height: 293px;
+    width: 196px;
+    object-fit: cover;
+    align-items: start;
+    display: flex; */
+    height: 293px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+}
+.searchResult{
+  color: #555;
+/* Page Title */
+font-family: 'Inter';
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: -1.2px;
+}
+.card-content {
+
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+     height: 100%; 
+    align-self: stretch;
+}
+ .card-text{
+  
+    color: #545454;
+ 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 24px */
+} 
+.card-text2{
+
+  color: #828282;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+}
+.card-text3{
+
+  color: #828282;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; /* 18px */
+}
+.ratingSearch{
+
+  display: flex; /* Use flexbox to enable alignment properties */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 24px;
+  height: 16px;
+  padding: 5px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background-color: black;
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  pointer-events: none;
+display: inline-flex;
+
+}
+
+
+

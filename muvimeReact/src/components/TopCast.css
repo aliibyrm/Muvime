@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.actor-name{
+    height: 24px;
+    margin-left:16px ;
+    color: #545454;
+/* h5/bold */
+font-family: 'Inter';
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 24px */
+ }
+
+ .card-text2 {
+        height: 18px;
+        align-self: stretch;
+        color: #828282;
+        font-family: 'Inter';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 18px */
+        margin-left: 16px;
+        margin-bottom: 0; /* Add this to remove the bottom margin */
+        padding-bottom: 0; /* Add this to remove the bottom padding */
+    }
+
+    .time-text {
+        height: 15px;
+        color: #828282;
+        font-family: 'Inter';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 16px;
+    }

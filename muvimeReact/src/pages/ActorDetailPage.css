@@ -1,0 +1,98 @@
+/* 
+.actor-detail-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .actor-detail-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .actor-detail-header img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .actor-biography {
+    margin-top: 20px;
+  }
+  
+
+   */
+   /* ActorDetailPage.css */
+
+.actor-detail-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .actor-detail-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .actor-detail-header img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .actor-info h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .actor-info p {
+    font-size: 14px;
+    color: #888;
+    margin: 5px 0;
+  }
+  
+  .actor-biography {
+    margin-top: 20px;
+  }
+  
+  .actor-credits {
+    margin-top: 20px;
+  }
+  
+  .credit-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .credit-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .credit-item strong {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .credit-item span.release-date {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  /* Daha fazla stil eklemeleri yapabilirsiniz */
+  
+  .credit-list a {
+    color: black;
+     /* Replace with the color you want */
+    text-decoration: none; /* Remove underlines from links */
+  }
